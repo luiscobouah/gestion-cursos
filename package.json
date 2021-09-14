@@ -1,9 +1,10 @@
 {
-  "name": "no-name",
-  "license": "UNLICENSED",
   "dependencies": {
     "@polymer/iron-icon": "3.0.1",
+    "@polymer/iron-iconset-svg": "^3.0.1",
     "@polymer/iron-list": "3.1.0",
+    "@polymer/paper-button": "^3.0.1",
+    "@polymer/paper-icon-button": "^3.0.2",
     "@polymer/polymer": "3.2.0",
     "@vaadin/vaadin-accordion": "1.2.0",
     "@vaadin/vaadin-app-layout": "2.2.0",
@@ -47,8 +48,12 @@
     "@vaadin/vaadin-upload": "4.4.2",
     "@webcomponents/webcomponentsjs": "^2.2.10",
     "construct-style-sheets-polyfill": "2.4.16",
-    "lit-element": "2.5.1",
-    "lit-html": "1.4.1"
+    "line-awesome": "1.3.0",
+    "lit-element": "^2.2.1",
+    "lit-html": "^1.1.2",
+    "lumo-css-framework": "^4.0.10",
+    "retry": "0.12.0",
+    "tippy.js": "6.3.1"
   },
   "devDependencies": {
     "babel-loader": "8.2.2",
@@ -69,10 +74,15 @@
     "webpack-dev-server": "3.11.0",
     "webpack-merge": "4.2.2"
   },
+  "license": "UNLICENSED",
+  "name": "no-name",
   "vaadin": {
     "dependencies": {
       "@polymer/iron-icon": "3.0.1",
+      "@polymer/iron-iconset-svg": "^3.0.1",
       "@polymer/iron-list": "3.1.0",
+      "@polymer/paper-button": "^3.0.1",
+      "@polymer/paper-icon-button": "^3.0.2",
       "@polymer/polymer": "3.2.0",
       "@vaadin/vaadin-accordion": "1.2.0",
       "@vaadin/vaadin-app-layout": "2.2.0",
@@ -116,8 +126,12 @@
       "@vaadin/vaadin-upload": "4.4.2",
       "@webcomponents/webcomponentsjs": "^2.2.10",
       "construct-style-sheets-polyfill": "2.4.16",
-      "lit-element": "2.5.1",
-      "lit-html": "1.4.1"
+      "line-awesome": "1.3.0",
+      "lit-element": "^2.2.1",
+      "lit-html": "^1.1.2",
+      "lumo-css-framework": "^4.0.10",
+      "retry": "0.12.0",
+      "tippy.js": "6.3.1"
     },
     "devDependencies": {
       "babel-loader": "8.2.2",
@@ -138,6 +152,6 @@
       "webpack-dev-server": "3.11.0",
       "webpack-merge": "4.2.2"
     },
-    "hash": "3fbf6634ac64536b210bb22a5271557763e077fa6af7ecc7f825becd3fecb82f"
+    "hash": "ee9668fd61b5854411bb2706cc2c88cffd2e36640ef8578bba9ccb03e5c68006"
   }
 }

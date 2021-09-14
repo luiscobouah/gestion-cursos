@@ -2,7 +2,6 @@ package com.uah.es.service;
 
 import com.uah.es.model.Rol;
 
-
 public interface IRolesService {
 
     Rol[] buscarTodos();
@@ -12,5 +11,4 @@ public interface IRolesService {
     void guardarRol(Rol rol);
 
     void eliminarRol(Integer idRol);
-
 }

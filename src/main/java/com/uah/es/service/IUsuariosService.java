@@ -2,7 +2,6 @@ package com.uah.es.service;
 
 import com.uah.es.model.Usuario;
 
-
 public interface IUsuariosService {
 
     Usuario[] buscarTodos();
@@ -22,5 +21,4 @@ public interface IUsuariosService {
     boolean actualizarUsuario(Usuario usuario);
 
     boolean eliminarUsuario(Integer idUsuario);
-
 }
